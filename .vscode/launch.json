@@ -1,0 +1,22 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Launch",
+      "type": "cppdbg",
+      "request": "launch",
+      "program": "${workspaceRoot}/a.out",
+      "cwd": "${workspaceRoot}"
+    }
+    // {
+    //   "type": "lldb",
+    //   "request": "launch",
+    //   "name": "Launch Program",
+    //   "program": "node",
+    //   "preLaunchTask": "npm: debug",
+    //   "args": [
+    //     "${workspaceRoot}/test/index.js"
+    //   ]
+    // }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "tasks": [
+    {
+      "label": "Build",
+      "command": "./node_modules/.bin/gulp",
+      "args": [
+        "build"
+      ],
+      "type": "shell",
+      "problemMatcher": []
+    },
+    {
+      "type": "gulp",
+      "task": "build",
+      "problemMatcher": []
+    }
+  ]
+}
